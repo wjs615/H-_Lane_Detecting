@@ -7,9 +7,13 @@ for iDir = 3:numel(DirList)
     fprintf('Processing: %s\n', aDir);
     cd(aDir)
 
-    open('D:\HMC_ComVeh_SCC_CUTIN\Test_Battery_Ign.slx')
-    sim('D:\HMC_ComVeh_SCC_CUTIN\Test_Battery_Ign.slx')
-    close_system('D:\HMC_ComVeh_SCC_CUTIN\Test_Battery_Ign.slx')
+    open('D:\HMC_ComVeh_SCC_CUTIN\Test_Battery_Ign_off.slx')
+    sim('D:\HMC_ComVeh_SCC_CUTIN\Test_Battery_Ign_off.slx')
+    close_system('D:\HMC_ComVeh_SCC_CUTIN\Test_Battery_Ign_off.slx')
+    
+    open('D:\HMC_ComVeh_SCC_CUTIN\Test_Battery_Ign_on.slx')
+    sim('D:\HMC_ComVeh_SCC_CUTIN\Test_Battery_Ign_on.slx')
+    close_system('D:\HMC_ComVeh_SCC_CUTIN\Test_Battery_Ign_on.slx')
            
     %% Set-up of variables
     Run(1).Settings ={};    
