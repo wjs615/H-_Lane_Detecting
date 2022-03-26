@@ -1,5 +1,6 @@
 # HMC_ComVeh_Lane_Detecting
-현대자동차 상용전자제어시험팀 주행환경모델 개발
+현대자동차 상용전자제어시험팀 주행환경모델 개발 </br>
+가상 주행환경 구축 프로그램인 PreScan과 연동한 MATLAB/Simulink 스크립트 (스크립트 파일 : *.m)
 
 ## Lane_Detecting_func
 
@@ -39,7 +40,8 @@
 > >   (3) CAN 신호 전송으로 DSA 제어기가 판단할 수 있도록 인지 부분에 해당하는 역할 수행 <br>
 
 ## automation (automation.m)
->
+> 가상 주행환경 시나리오 자동화 MATLAB 스크립트
+> 
 > ![image](https://user-images.githubusercontent.com/36038244/147514704-497a5525-6f46-42df-81c7-640672a26b7c.png)
 >
 > (1) PreScan으로 생성한 여러개의 시나리오 폴더들이 있는 상위 폴더를 basepath로 입력 <br>
