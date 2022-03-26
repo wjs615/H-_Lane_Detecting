@@ -42,7 +42,7 @@ H사 주행환경모델 개발 </br>
 ## automation (automation.m)
 > 가상 주행환경 시나리오 자동화 MATLAB 스크립트
 > 
-> ![image](https://user-images.githubusercontent.com/36038244/147514704-497a5525-6f46-42df-81c7-640672a26b7c.png)
+> ![image](https://user-images.githubusercontent.com/36038244/160242038-cec6d589-ee5a-47bd-8100-e3589652da15.png)
 >
 > (1) PreScan으로 생성한 여러개의 시나리오 폴더들이 있는 상위 폴더를 basepath로 입력 <br>
 > (2) 5번 라인의 for iDir = 3:numel(DirList)의 3 - matlab에서 dir 명령어로 폴더 리스트 확인 시 ., .., SCC_Gen_01, SCC_Gen_02, ....,와 <br> 
