@@ -1,5 +1,5 @@
-# HMC_ComVeh_Lane_Detecting
-현대자동차 상용전자제어시험팀 주행환경모델 개발 </br>
+# H-_Lane_Detecting
+H사 주행환경모델 개발 </br>
 가상 주행환경 구축 프로그램인 PreScan과 연동한 MATLAB/Simulink 스크립트 (스크립트 파일 : *.m)
 
 ## Lane_Detecting_func
