@@ -50,7 +50,7 @@ H사 주행환경모델 개발 </br>
 > (3) 10 ~ 16번 라인의 Battery_Ign_on.slx, Battery_Ign_off.slx를 이용해 시나리오 연속 실행 시 변수 값 초기화 <br><br>
 > ![image](https://user-images.githubusercontent.com/36038244/147514886-0905b543-a404-400c-b9b3-971f0bb5925d.png) <br>
 > ![image](https://user-images.githubusercontent.com/36038244/147514856-c9e5d80e-3e8e-456a-8677-5c4fe86d6416.png) <br>
-> (4) 18 ~ 99번 라인의 PreScan CLI (Command Line Interface) 명령어를 이용해 automation.m 스크립트 실행 시 PreScan CLI로 해당 시나리오 생성 및 Simulink에서 시나리오 실행될 수 있도록 함 <br><br>
+> (4) 18 ~ 99번 라인의 PreScan CLI (Command Line Interface) 명령어를 이용해 automation.m 스크립트 실행 시 PreScan CLI로 해당 시나리오 생성 및 Simulink에서 시나리오 실행될 수 있도록 함 <br>
 > (5) 100 ~ 643번 라인 : 시나리오 종료 후 Yaw rate, velocity, acceleration 등의 차량 정보를 저장하기 위해 To workspace Simulink 블럭을 사용해 matlab workspace에 저장 <br>
 > (6) matlab workspace로 저장된 차량 정보 데이터들을 엑셀 데이터로 변환하여 데이터 가시성 확보
 
