@@ -4,7 +4,7 @@
 
 ## Lane_Detecting_func
 
-> ![image](https://user-images.githubusercontent.com/36038244/147513281-e9056fc2-f343-4590-85ae-fed36e00c4db.png)
+> 
 > 
 > > ### 1. Image Processing Subsystem (HMC_Lane_detect.slx)
 > >
@@ -19,13 +19,13 @@
 > >   (1) 픽셀단위로 출력되는 PreScan 카메라 데이터를 거리 단위로 환산<br>
 > >   (2) 거리 단위 환산 후 전방 인식 거리 (View Range), 차선 / 바퀴 사이의 거리 (Lane_offset), 차 중앙 / 차선 사이 각 (angle)을 DSA 제어기가 판단할 수 있도록 스크립트 작성 (인지 부분에 해당)<br>
 > >   (3) HMC_Lane_detect - Subsystem1 – output – Subsystem – Draw Polygon – Line to Polygon Coordinates
-> >   ![image](https://user-images.githubusercontent.com/36038244/147512890-430fdb59-6d77-4715-8e82-d95c4664b60d.png)
+> >   ![image](https://user-images.githubusercontent.com/36038244/160238851-6be2f542-7e04-4365-bd63-69c831b07ad9.png)
 > >  
 > > - #### DetectColorAndType.m <br>
 > >   (1) 차선 색상 (흰색, 주황색, 파란색), 차선 종류 (실선, 점선)으로 구성 <br>
 > >   (2) 차선 색상 : 카메라 이미지 RGB 색상에서 Y'Cb'Cr' 색차를 이용한 차선 색상 구분
-> >   (3) 차선 종류 : 차선 색상 픽셀 정보를 이용하여 비율이 0.4 초과일 경우 실선, 아닐경우 점선으로 인식
-> >   ![image](https://user-images.githubusercontent.com/36038244/147513252-7dded3e8-b069-4690-97ed-4b93a413a1ff.png)
+> >   (3) 차선 종류 : 차선 색상 픽셀 정보를 이용하여 비율이 0.4 초과일 경우 실선, 아닐경우 점선으로 인식</br>
+> >   ![image](https://user-images.githubusercontent.com/36038244/160238898-7a58f12e-affc-4559-8507-a8c14610f100.png)
 >
 > ### 2. Lane_Color_recognize_function<br>
 > > - #### Lane_Color.m <br>
